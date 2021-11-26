@@ -1,0 +1,14 @@
+{
+    "TOKEN": "ODg0Mzc5MTgwMjU3NjQwNDk4.YTXoSw.OQB_u-uuqCc5i-tPrvGkaC9kBb8",
+    "command_prefix":"!",
+    "owner": [
+        "711206445655392377",
+        "805778083093282816",
+        "561836429408206854"
+    ],
+    "admin":  {},
+    "webhook": [
+        "https://discord.com/api/webhooks/911252766867984444/rR8lncswEIVcACUoInHEpF-Ay4aVapcMVFElM3L-kNPAyWOIeeCrhm4Szd7N4NEELfQv",
+        "https://discord.com/api/webhooks/895680356437594193/IAW3jWJsmCAOaX8iuKQ9Q6KWGdGMc9H2aHMg1oIcnYETARoYvRaXzDhcu7935BAG--E1"
+    ]
+}
