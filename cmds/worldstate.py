@@ -9,7 +9,7 @@ from operator import itemgetter
 
 cc = OpenCC('s2twp') #簡體中文 -> 繁體中文 (台灣, 包含慣用詞轉換)
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 class worldstate(Cog_Extension):

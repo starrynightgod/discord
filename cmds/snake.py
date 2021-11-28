@@ -6,7 +6,7 @@ import random
 import os
 import json
 
-with open('setting.json','r',encoding='utf8') as jset:
+with open('config.json','r',encoding='utf8') as jset:
     jdata = json.load(jset)
     
 game=[[999,999,999,999,999,999,999,999,999,999,999,999,999,999,999]#0

@@ -3,7 +3,7 @@ from core.classes import Cog_Extension
 import os
 import json
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 

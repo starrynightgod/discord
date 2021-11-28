@@ -3,7 +3,7 @@ from discord.ext import commands
 import random
 import json
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 errortxt = ('格式不正確，或是未使用有效的正整數',

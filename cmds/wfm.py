@@ -4,7 +4,7 @@ import requests
 import json
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 

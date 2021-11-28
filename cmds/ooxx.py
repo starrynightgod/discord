@@ -4,7 +4,7 @@ from core.classes import Cog_Extension
 import os
 import json
 
-with open('setting.json','r',encoding='utf8') as jset:
+with open('config.json','r',encoding='utf8') as jset:
     jdata = json.load(jset)
 
 messageReactionId=[]

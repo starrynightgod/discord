@@ -12,7 +12,7 @@ import requests
 
 intents = discord.Intents.all()
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 bot = commands.Bot(command_prefix=jdata["command_prefix"],intents = intents)

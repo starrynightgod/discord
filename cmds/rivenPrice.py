@@ -12,7 +12,7 @@ with open('dict/Weapons.json', 'r', encoding='utf8') as dict:
 with open('dict/attributes.json', 'r', encoding='utf8') as attrDict:
   attrDict = json.load(attrDict)
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 class rivenPrice(Cog_Extension):

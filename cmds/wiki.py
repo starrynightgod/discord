@@ -9,7 +9,7 @@ cc = OpenCC('t2s') #繁體中文 -> 簡體中文
 
 subpage = {"Main":"概述","Prime":"Prime","Abilities":"技能","Equip":"可替換裝備","Patch_History":"更新歷史","Media":"影音資料"}
 
-with open('setting.json', 'r', encoding='utf8') as jfile:
+with open('config.json', 'r', encoding='utf8') as jfile:
     jdata = json.load(jfile)
 
 class wiki(Cog_Extension):
